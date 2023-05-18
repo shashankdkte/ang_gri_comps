@@ -1,10 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-element-home',
   templateUrl: './element-home.component.html',
-  styleUrls: ['./element-home.component.css']
+  styleUrls: ['./element-home.component.css'],
 })
-export class ElementHomeComponent {
-
-}
+export class ElementHomeComponent {}
