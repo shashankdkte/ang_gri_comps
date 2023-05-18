@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ModalHomeComponent } from './modal-home/modal-home.component';
 
-const routes: Routes = [];
+const routes: Routes = [{ path: '', component: ModalHomeComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class ModsRoutingModule { }
+export class ModsRoutingModule {}
